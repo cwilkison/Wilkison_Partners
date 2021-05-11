@@ -4,32 +4,13 @@ body {
   background: hsl(207, 57%, 67%);
 }
 
-/*====================
-        FOOTER
-======================*/
-
-footer {
-  padding: 50px 0px;
-  text-align: center;
-  font-size: 40px;
-  color: #ffffff;
-  background: hsl(207, 57%, 67%);
-  width: 100%;
-  height: 60px;
-}
-
-.footer-container {
-  position: static;
-  width: 100%;
-}
-
-footer .footer_copyright {
-  font-size: 18px;
-}
-
 /*============================
         FEATURED IMAGE
 ==============================*/
+
+.featured_container {
+  background: hsl(207, 57%, 67%);
+}
 
 .featured_container .featured_image {
   position: relative;
@@ -60,4 +41,31 @@ footer .footer_copyright {
   font-size: 50px;
   font-weight: 300;
   margin-top: 10px;
+}
+
+/*====================
+        FOOTER
+======================*/
+
+footer {
+  padding: 50px 0px;
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+  background: hsl(207, 57%, 67%);
+  width: 100%;
+}
+
+.footer-container {
+  position: static;
+  width: 100%;
+}
+
+footer .footer_copyright {
+  font-size: 18px;
+}
+
+.spacer {
+  width: 100%;
+  height: 95px;
 }

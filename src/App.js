@@ -10,6 +10,8 @@ import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
 function App() {
   return (
     <div>
@@ -19,12 +21,14 @@ function App() {
           <Home />
         </Route>
         <Route exact path="/about">
+          <div class="spacer"></div>
           <About />
         </Route>
         <Route exact path="/bio">
           <Bio />
         </Route>
         <Route exact path="/contact">
+          <div class="spacer"></div>
           <Contact />
         </Route>
         <Footer />
