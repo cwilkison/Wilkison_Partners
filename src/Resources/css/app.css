@@ -69,3 +69,55 @@ footer .footer_copyright {
   width: 100%;
   height: 95px;
 }
+
+/*============================
+        CONTACT
+==============================*/
+
+.success-msg {
+  color: #57a773;
+  padding: 10px 15px;
+}
+
+.error-msg {
+  color: #ee6352;
+  padding: 10px 15px;
+}
+
+.contact-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info {
+  max-width: 500px;
+  line-height: 65px;
+  padding-left: 50px;
+  font-size: 18px;
+}
+
+/*====================
+        LOCATION    
+======================*/
+
+.location_wrapper {
+  position: relative;
+}
+
+.location_tag {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.location_tag div {
+  background: #2c2c2c;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 220px;
+  margin: 0 auto;
+  font-size: 29px;
+  padding: 15px 20px;
+  text-align: center;
+}
