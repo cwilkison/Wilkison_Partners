@@ -89,15 +89,13 @@ footer .footer_copyright {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.2rem;
+  padding-top: 5%;
 }
 
 .contact-info {
-  max-width: 500px;
-  line-height: 65px;
-  padding-left: 50px;
-  font-size: 18px;
+  padding: 0 2%;
 }
-
 /*====================
         LOCATION    
 ======================*/
@@ -120,4 +118,20 @@ footer .footer_copyright {
   font-size: 29px;
   padding: 15px 20px;
   text-align: center;
+}
+
+/*====================
+        About Us    
+======================*/
+
+.aboutContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 0;
+}
+
+.aboutImages {
+  width: 48%;
+  height: 48%;
+  border-radius: 15%;
 }

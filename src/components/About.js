@@ -2,6 +2,9 @@ import React from "react";
 import Hero from "./Hero";
 import Content from "./Content";
 
+import suncity2Image from "../Resources/images/sun_city2.jpg";
+import suncityImage from "../Resources/images/sun_city.jpg";
+
 function AboutPage(props) {
   return (
     <div>
@@ -44,6 +47,10 @@ function AboutPage(props) {
         </p>
 
         <p>The best is yet to come!</p>
+        <div className="aboutContainer">
+          <img className="aboutImages" src={suncity2Image} />
+          <img className="aboutImages" src={suncityImage} />
+        </div>
       </Content>
     </div>
   );
